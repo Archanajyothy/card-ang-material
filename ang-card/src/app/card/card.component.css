@@ -1,0 +1,27 @@
+.container{
+    margin: 20px 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+}
+/* img{
+    border-radius: 10px;
+} */
+.cards{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  margin-right: 20px;
+}
+.example-card {
+    max-width: 400px;
+    border-radius: 10px;
+    background-image: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12);  }
+  
+  .example-header-image {
+    background-image: url('https://material.angular.io/assets/img/examples/shiba1.jpg');
+    background-size: cover;
+  }
+  
